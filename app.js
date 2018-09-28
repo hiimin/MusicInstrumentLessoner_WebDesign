@@ -10,6 +10,7 @@ var testCSSRouter = require('./routes/testCSS');
 var testCSS2Router = require('./routes/testCSS2');
 var gridRouter = require('./routes/grid');
 var mediaQuery = require('./routes/mediaQuery');
+var testScrollRouter = require('./routes/testScroll');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/testCSS',testCSSRouter);
 app.use('/testCSS2',testCSS2Router);
 app.use('/grid',gridRouter);
 app.use('/mediaQuery',mediaQuery);
+app.use('/testScroll',testScrollRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
