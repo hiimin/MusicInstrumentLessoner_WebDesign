@@ -6,3 +6,46 @@ body {
 a {
   color: #00B7FF;
 }
+body {
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+
+ol {
+  border-right: 1px solid gray;
+  width: 100px; /*ol 태그는 화면 전체를 쓰기 때문에*/
+  margin: 0;
+  padding: 20px;
+}
+#grid{
+  display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left: 33px;
+}
+#grid #article{
+  padding-left:25px;
+}
+@media(max-width:800px){    /*800보다 작아지면*/
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
