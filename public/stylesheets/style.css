@@ -84,10 +84,20 @@ ol {
 
 .main{
   height: 700px;
-  border: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 footer{
   height: 150px;
   background-color: #f1f1f1
+}
+
+#main1{
+  display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
+  grid-template-columns: 1fr 1fr;
+}
+
+#main1 p{
+  border-right: 1px solid gray;
+  margin: 0;
 }
