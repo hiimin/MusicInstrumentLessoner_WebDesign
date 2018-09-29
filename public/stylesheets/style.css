@@ -101,3 +101,53 @@ footer{
   border-right: 1px solid gray;
   margin: 0;
 }
+#upload{
+  width: 100%;
+  text-align: center;
+}
+#upload1{
+  align-items: center;
+  width: 750px;
+  height: 500px;
+  background: white;
+  border: solid 1px gray;
+  margin: auto;
+}
+#upload2{
+  align-items: center;
+  width: 750px;
+  background-color: #f4f4f4;
+  border: solid 1px gray;
+  height: 500px;
+  margin: auto;
+}
+
+#musician{
+  border:solid 1px gray;
+  background: white;
+}
+#musician label{
+  color: #2db6cd;
+}
+
+#templateName{
+  border:solid 1px gray;
+  background: white;
+}
+#templateName label{
+  color: #c297eb;
+}
+
+#file{
+  border:solid 1px gray;
+  background: white;
+}
+#file label{
+  color: #2db6cd;
+}
+
+#upload2 input{
+  border: none;
+  border-top: solid 1px gray;
+  width: 99%;
+}
