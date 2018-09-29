@@ -106,6 +106,7 @@ footer{
   text-align: center;
 }
 #upload1{
+  text-align: center;
   align-items: center;
   width: 750px;
   height: 500px;
@@ -123,31 +124,53 @@ footer{
 }
 
 #musician{
-  border:solid 1px gray;
+  border:solid 1px lightgray;
   background: white;
+  width: 80%;
+  height: 115px;
+  margin: auto;
+  margin-top: 50px;
 }
-#musician label{
+#musician div{
+  font-size: 20px;
+  padding-top: 10px;
   color: #2db6cd;
+  height: 25px;
 }
 
 #templateName{
-  border:solid 1px gray;
+  border:solid 1px lightgray;
   background: white;
+  width: 80%;
+  height: 115px;
+  margin: auto;
+  margin-top: 50px;
 }
-#templateName label{
+#templateName div{
+  font-size: 20px;
+  padding-top: 10px;
   color: #c297eb;
+  height: 25px;
 }
 
 #file{
-  border:solid 1px gray;
+  border:solid 1px lightgray;
   background: white;
+  width: 80%;
+  height: 115px;
+  margin: auto;
+  margin-top: 50px;
 }
-#file label{
+#file div{
+  font-size: 20px;
+  padding-top: 10px;
   color: #2db6cd;
+  height: 25px;
 }
 
 #upload2 input{
   border: none;
-  border-top: solid 1px gray;
+  border-top: solid 1px lightgray;
   width: 99%;
+  height: 50%;
 }
