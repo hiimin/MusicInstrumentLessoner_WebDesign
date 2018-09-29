@@ -35,15 +35,27 @@ ol {
 
 #menubar{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
   text-align: center;
-  border-top:1px solid gray;
-  border-bottom: 1px solid gray;
-  padding:20px;
+  text-align-all: center;
+  /*border-top:1px solid gray;*/
+  /*border-bottom: 1px solid gray;*/
+  padding: 10px;
   position: fixed;
   width: 100%;
   color:white;
-  background-color: black;
+  background-color: #b48ef3;
+  background-color: #2db6cd;
+  background-color: #c297eb;
+  background-color: #7ba3f0;
+  background: rgba( 123, 163, 240,0.7);
+  font-size: 15px;
+}
+#menubar a{
+  color: white;
+  display:flex;
+  align-items: center;
+  padding-left: 80px;
 }
 
 #grid ol{
@@ -64,7 +76,13 @@ ol {
   }
 }
 
-.em em-musical_note{
-  color: white;
-  align-items: center;
+p{
+  height: 500px;
+  border: 1px solid gray;
+}
+
+#empty{
+  height: 59.2px;
+  width: 649.6px;
+  visibility: hidden;
 }
