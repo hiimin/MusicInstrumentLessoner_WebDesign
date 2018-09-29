@@ -40,7 +40,7 @@ ol {
   text-align-all: center;
   /*border-top:1px solid gray;*/
   /*border-bottom: 1px solid gray;*/
-  padding: 10px;
+  padding: 5px;
   position: fixed;
   width: 100%;
   color:white;
@@ -76,13 +76,18 @@ ol {
   }
 }
 
-p{
-  height: 500px;
+#empty{
+  height: 45.2px;
+  width: 649.6px;
+  visibility: hidden;
+}
+
+.main{
+  height: 700px;
   border: 1px solid gray;
 }
 
-#empty{
-  height: 59.2px;
-  width: 649.6px;
-  visibility: hidden;
+footer{
+  height: 150px;
+  background-color: #f1f1f1
 }
