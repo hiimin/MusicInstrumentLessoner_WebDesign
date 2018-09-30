@@ -35,30 +35,38 @@ ol {
   display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
   grid-template-columns: 150px 1fr;
 }
+#logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#logo img{
+  margin-left: 250px;
+}
 
 #menubar{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 150px 150px 150px 150px 150px;
   text-align: center;
   text-align-all: center;
   /*border-top:1px solid gray;*/
   /*border-bottom: 1px solid gray;*/
   position: fixed;
   width: 100%;
-  height: 45.2px;
-  color:white;
+  height: 50px;
+  color:black;
   background-color: #b48ef3;
   background-color: #2db6cd;
   background-color: #c297eb;
   background-color: #7ba3f0;
-  background-colr : #7BA3F0;
+  background-color: #fbe5d9;
+  background-color: white;
   font-size: 15px;
 }
 #menubar a{
-  color: white;
+  color: #504e4d;
   display:flex;
   align-items: center;
-  padding-left: 80px;
+  font-weight: 300;
 }
 
 #grid ol{
@@ -80,7 +88,7 @@ ol {
 }
 
 #empty{
-  height: 45.2px;
+  height: 50px;
   width: 649.6px;
   visibility: hidden;
 }
@@ -94,18 +102,30 @@ footer{
   height: 150px;
   background-color: #f1f1f1
 }
+
+.main #main1{
+  background-color: #faf9f8;
+}
+
 #main0{
 
 }
 
 #main1{
-  display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
-  grid-template-columns: 1fr 1fr;
+  position:relative;
 }
 
-#main1 p{
-  border-right: 1px solid gray;
-  margin: 0;
+#main1 h1{
+  position: absolute;
+  top:40px;
+  left: 80px;
+  width: 700px;
+}
+#main1 h2{
+  position: absolute;
+  top:150px;
+  left: 150px;
+  width: 700px;
 }
 #upload{
   width: 100%;
