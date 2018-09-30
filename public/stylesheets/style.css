@@ -1,6 +1,9 @@
 body {
   padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font-family: Calibri;*/
+  font-family: SansSerif;
+  font-weight: bold;
 }
 
 a {
@@ -40,15 +43,15 @@ ol {
   text-align-all: center;
   /*border-top:1px solid gray;*/
   /*border-bottom: 1px solid gray;*/
-  padding: 5px;
   position: fixed;
   width: 100%;
+  height: 45.2px;
   color:white;
   background-color: #b48ef3;
   background-color: #2db6cd;
   background-color: #c297eb;
   background-color: #7ba3f0;
-  background: rgba( 123, 163, 240,0.7);
+  background-colr : #7BA3F0;
   font-size: 15px;
 }
 #menubar a{
@@ -91,6 +94,9 @@ footer{
   height: 150px;
   background-color: #f1f1f1
 }
+#main0{
+
+}
 
 #main1{
   display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
@@ -121,6 +127,7 @@ footer{
   border: solid 1px white;
   height: 600px;
   margin: auto;
+  font-weight: 600;
 }
 
 #musician{
@@ -132,7 +139,7 @@ footer{
   margin-top: 50px;
 }
 #musician div{
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
   color: #2db6cd;
@@ -155,7 +162,7 @@ footer{
   margin-top: 50px;
 }
 #templateName div{
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
   color: #c297eb;
@@ -171,7 +178,7 @@ footer{
   margin-top: 50px;
 }
 #file div{
-  font-size: 20px;
+  font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
   color: #2db6cd;
@@ -188,4 +195,10 @@ footer{
 .textImg{
   display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
   grid-template-columns: 1fr 1fr;
+}
+
+#main1Img{
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
 }
