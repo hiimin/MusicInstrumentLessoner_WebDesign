@@ -35,39 +35,6 @@ ol {
   display:grid;   /*id가 grid인 태크의 display를 grid로 지정*/
   grid-template-columns: 150px 1fr;
 }
-#logo{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#logo img{
-  margin-left: 250px;
-}
-
-#menubar{
-  display:grid;
-  grid-template-columns:1fr 150px 150px 150px 150px 150px;
-  text-align: center;
-  text-align-all: center;
-  /*border-top:1px solid gray;*/
-  /*border-bottom: 1px solid gray;*/
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  color:black;
-  background-color: #b48ef3;
-  background-color: #2db6cd;
-  background-color: #c297eb;
-  background-color: #7ba3f0;
-  background-color: #fbe5d9;
-  background-color: white;
-  font-size: 15px;
-}
-#menubar a{
-  color: #504e4d;
-  display:flex;
-  align-items: center;
-  font-weight: 300;
-}
 
 #grid ol{
   padding-left: 33px;
@@ -87,29 +54,73 @@ ol {
   }
 }
 
+
+/*상단 메뉴바*/
+#menubar{
+  display:grid;
+  grid-template-columns:1fr 150px 150px 150px 150px 150px;
+  text-align: center;
+  text-align-all: center;
+  /*border-top:1px solid gray;*/
+  /*border-bottom: 1px solid gray;*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 58px;
+  color:black;
+  /*background-color: #b48ef3;
+  background-color: #2db6cd;
+  background-color: #c297eb;
+  background-color: #7ba3f0;
+  background-color: #fbe5d9;*/
+  background-color: white;
+  font-size: 15px;
+  z-index:2;
+}
+/*메뉴바 메뉴*/
+#menubar a{
+  color: #504e4d;
+  display:flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+/*메뉴바 공간*/
 #empty{
-  height: 50px;
-  width: 649.6px;
+  height: 58px;
+  width: 100%;
   visibility: hidden;
 }
 
+#logo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#logo img{
+  margin-left: 250px;
+}
+
+/*메인화면 공간*/
 .main{
   height: 700px;
   border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  background-color: #fafafa;
 }
-
+/*footer*/
 footer{
   height: 150px;
   background-color: #f1f1f1
 }
 
-.main #main1{
+/*.main #main1{
   background-color: #faf9f8;
 }
 
 #main0{
 
-}
+}*/
 
 #main1{
   position:relative;
@@ -127,6 +138,18 @@ footer{
   left: 150px;
   width: 700px;
 }
+
+#main2{
+  position:relative;
+}
+
+#main2 h1{
+  position: absolute;
+  top: 240px;
+  left: 380px;
+  width: 700px;
+}
+
 #upload{
   width: 100%;
   text-align: center;
@@ -221,4 +244,11 @@ footer{
   width: 100%;
   height: 100%;
   opacity: 0.3;
+}
+
+#main2Img{
+  width: 80%;
+  height: 100%;
+  opacity: 0.3;
+  padding-left: 100px;
 }
