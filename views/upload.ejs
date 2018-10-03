@@ -7,9 +7,13 @@
 </head>
 <body>
 <nav id="menubar">
+    <div id="logo">
+        <img id="Img" src="/images/5line.PNG">
+        <a href="#">Music Lessoner</a>
+    </div>
     <a href="#">♬</a>
     <a href="#">music</a>
-    <a href="#">MusicInstrument<br>Lessoner</a>
+    <a href="#">lessoner</a>
     <a href="#">login</a>
     <a href="#">search</a>
 </nav>
@@ -17,15 +21,15 @@
     for menubar
 </div>
 <div id="upload">
-    <div id="upload1">
-        img
-    </div>
+    <!--<img id="upload1" src="/images/musicUpload.PNG">-->
+    <img id="upload1" src="/images/upload5.png">
+    </img>
     <div id="upload2">
         <form action="#" method = "post" enctype="multipart/form-data">
             <div id="musician">
                 <div class="textImg">
                     <img id="Img" src="/images/musician.PNG">
-                    <div>작곡가 이름</div>
+                    <div class="list">작곡가 이름</div>
                 </div>
                 <br>
                 <input type="text">
@@ -33,7 +37,7 @@
             <div id="templateName">
                 <div class="textImg">
                     <img id="Img" src="/images/template.PNG">
-                    <div>템플릿 이름</div>
+                    <div class="list">템플릿 이름</div>
                 </div>
                 <br>
                 <input type="text">
@@ -41,16 +45,21 @@
             <div id="file">
                 <div class="textImg">
                     <img id="Img" src="/images/file.PNG">
-                    <div>파일 업로드</div><br>
+                    <div class="list">파일 업로드</div><br>
                 </div>
+                <br>
                 <input type="file" name="userfile">
-                <input type="submit">
+                <!--<input type="text">-->
             </div>
+            <input id="submitbutton" type="submit">
         </form>
     </div>
 </div>
 <footer>
-    this is footer
+    제 6회 K-Hackathon<br>
+    과학기술정보통신부<br>
+    (사)소프트웨어교육혁신센터<br>
+    WAP-THE-HACK
 </footer>
 </body>
 </html>

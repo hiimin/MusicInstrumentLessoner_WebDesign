@@ -216,17 +216,18 @@ footer{
   width: 650px;
   height: 400px;
   background: white;
-  border: solid 1px gray;
+  /*border: solid 1px gray;*/
   margin: auto;
 }
 #upload2{
   align-items: center;
   width: 650px;
   background-color: #f4f4f4;
-  border: solid 1px white;
+  /*border: solid 0.5px white;*/
   height: 600px;
   margin: auto;
   font-weight: 600;
+  padding-top: 10px;
 }
 
 #musician{
@@ -241,7 +242,7 @@ footer{
   font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
-  color: #2db6cd;
+  color: #504e4d;
   height: 25px;
 }
 #upload2 #Img{
@@ -264,7 +265,7 @@ footer{
   font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
-  color: #c297eb;
+  color: #504e4d;
   height: 25px;
 }
 
@@ -280,7 +281,7 @@ footer{
   font-size: 17px;
   padding-top: 5px;
   margin-right: 80px;
-  color: #2db6cd;
+  color: #504e4d;
   height: 25px;
 }
 
@@ -299,7 +300,7 @@ footer{
 #main1Img{
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 #main2Img{
@@ -324,4 +325,9 @@ footer{
   width:100%;
   height: 100%;
   opacity: 0.8;
+}
+
+#submitbutton{
+  display: inline;
+  margin-top: 20px;
 }
