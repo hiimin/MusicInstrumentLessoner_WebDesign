@@ -106,7 +106,7 @@ ol {
   height: 700px;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
-  background-color: #fafafa;
+  background-color: white;
 }
 /*footer*/
 footer{
@@ -128,15 +128,18 @@ footer{
 
 #main1 h1{
   position: absolute;
-  top:40px;
-  left: 80px;
+  top:270px;
+  left: 440px;
   width: 700px;
+  color: #504e4d;
+  padding: 10px;
 }
 #main1 h2{
   position: absolute;
-  top:150px;
-  left: 150px;
+  top:330px;
+  left: 510px;
   width: 700px;
+  color: #504e4d;
 }
 
 #main2{
@@ -145,9 +148,24 @@ footer{
 
 #main2 h1{
   position: absolute;
-  top: 240px;
-  left: 380px;
+  top: 130px;
+  left: 80px;
   width: 700px;
+  color: #504e4d;
+}
+
+#main3{
+  /*display: grid;
+  grid-template-columns: 400px 1fr;*/
+  position:relative;
+}
+
+#main3 h1{
+  position: absolute;
+  top: 450px;
+  left: 820px;
+  width: 700px;
+  color: #f1f1f1;
 }
 
 #upload{
@@ -243,12 +261,24 @@ footer{
 #main1Img{
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 #main2Img{
-  width: 80%;
+  width: 100%;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.8;
   padding-left: 100px;
+}
+
+#main3Img{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+#main4Img{
+  width:100%;
+  height: 100%;
+  opacity: 0.5;
 }
