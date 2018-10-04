@@ -12,6 +12,7 @@ var gridRouter = require('./routes/grid');
 var mediaQuery = require('./routes/mediaQuery');
 var testScrollRouter = require('./routes/testScroll');
 var uploadRouter = require('./routes/upload');
+var loginRouter = require('./routes/login');
 
 var app = express();
 
@@ -33,6 +34,7 @@ app.use('/grid',gridRouter);
 app.use('/mediaQuery',mediaQuery);
 app.use('/testScroll',testScrollRouter);
 app.use('/upload',uploadRouter);
+app.use('/login',loginRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
