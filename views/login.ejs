@@ -15,7 +15,7 @@
     <a href="#">music</a>
     <a href="#">lessoner</a>
     <a href="#">login</a>
-    <a href="#">search</a>
+    <a href="#">upload</a>
 </nav>
 <div id="empty">
     for menubar
@@ -25,11 +25,15 @@
         LOGIN
     </h1>
     <form action="#" method="post">
-        <input type="text" placeholder="아이디">
-        <input type="password" placeholder="비밀번호">
-        <input type="radio">로그인유지
-        <input type="submit">
+        <input class="idPassword" type="text" placeholder="아이디">
+        <input class="idPassword" type="password" placeholder="비밀번호">
+        <input id="keeplogin" type="checkbox"><label for="keeplogin">로그인 유지</label>
+        <input id="submit" type="submit" value="로그인">
     </form>
+    <div id="signup">
+        <a href="#" id="find">ID/PW 찾기</a>
+        <a href="#">회원가입</a>
+    </div>
 </div>
 </body>
 </html>
