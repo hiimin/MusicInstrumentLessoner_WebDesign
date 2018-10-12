@@ -243,6 +243,7 @@ footer{
   margin: auto;
   font-weight: 600;
   padding-top: 10px;
+  margin-bottom: 20px;
 }
 
 #musician{
@@ -305,6 +306,7 @@ footer{
   border-top: solid 1px lightgray;
   width: 99%;
   height: 50%;
+  outline: none;
 }
 
 .textImg{
@@ -352,6 +354,7 @@ footer{
 #login{
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 500px;
   height: 600px;
   border: 1px solid gray;
@@ -373,6 +376,7 @@ footer{
   margin-top: 30px;
   margin-left: 40px;
   width: 400px;
+  height: 30px;
   font-size: 17px;
   font-weight: 600;
 }
@@ -418,6 +422,7 @@ footer{
 #signup{
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 500px;
   height: 630px;
   border: 1px solid gray;
@@ -456,6 +461,8 @@ footer{
   font-weight: 500;
   padding-left: 10px;
   height: 21px;
+  outline: none;
+  margin-top: 5px;
 }
 #signup label{
   text-align: center;
