@@ -419,7 +419,7 @@ footer{
   margin: auto;
   margin-top: 20px;
   width: 500px;
-  height: 600px;
+  height: 630px;
   border: 1px solid gray;
   background-color: white;
 }
@@ -439,7 +439,7 @@ footer{
   grid-template-columns: 130px 150px;
   margin-top: 20px;
   /*margin-right: 40px;*/
-  margin-left: 30px;
+  margin-left: 50px;
   border: 1px solid lightgray;
   border-radius: 5px;
   height: 30px;
@@ -458,12 +458,12 @@ footer{
   height: 21px;
 }
 #signup label{
-  text-align: left;
+  text-align: center;
   color: gray;
   font-weight: 500;
   font-size: 18px;
   /*border-bottom: 1px solid gray;*/
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   margin-top: 5px;
   border-right: 1px solid lightgray;
 }
