@@ -14,6 +14,7 @@ var testScrollRouter = require('./routes/testScroll');
 var uploadRouter = require('./routes/upload');
 var loginRouter = require('./routes/login');
 var signUpRouter = require('./routes/signUp');
+var uploadSuccess = require('./routes/uploadSuccess');
 
 var app = express();
 
@@ -37,6 +38,7 @@ app.use('/testScroll',testScrollRouter);
 app.use('/upload',uploadRouter);
 app.use('/login',loginRouter);
 app.use('/signUp',signUpRouter);
+app.use('/uploadSuccess',uploadSuccess);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

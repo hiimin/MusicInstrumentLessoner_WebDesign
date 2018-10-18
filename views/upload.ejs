@@ -20,12 +20,12 @@
 <div id="empty">
     for menubar
 </div>
-<div id="upload">
-    <!--<img id="upload1" src="/images/musicUpload.PNG">-->
+<!--<div id="upload">
+    &lt;!&ndash;<img id="upload1" src="/images/musicUpload.PNG">&ndash;&gt;
     <img id="upload1" src="/images/upload5.png">
     </img>
     <div id="upload2">
-        <form action="#" method = "post" enctype="multipart/form-data">
+        <form action="/" method = "post" enctype="multipart/form-data">
             <div id="musician">
                 <div class="textImg">
                     <img id="Img" src="/images/musician.PNG">
@@ -49,11 +49,47 @@
                 </div>
                 <br>
                 <input type="file" name="userfile">
-                <!--<input type="text">-->
+                &lt;!&ndash;<input type="text">&ndash;&gt;
             </div>
             <button type="submit" id="uploadButton">upload</button>
         </form>
     </div>
+</div>-->
+<div id="newUpload">
+    <h1>
+        Upload
+    </h1>
+    <form href="/" method="post" enctype="multipart/form-data">
+        <div class>
+            <label>작곡가 이름</label>
+            <input class="userInfo" type="text">
+        </div>
+        <div>
+            <label>템플릿 이름</label>
+            <input class="userInfo" type="text">
+        </div>
+        <div>
+            <label>파일 업로드</label>
+            <input id="fileup" type="file" name="userfile">
+        </div>
+        <!--<div>
+            <label>이름</label>
+            <input class="userInfo" type="text">
+        </div>
+        <div>
+            <label>주소</label>
+            <input class="userInfo" type="text">
+        </div>
+        <div>
+            <label>휴대폰</label>
+            <input class="userInfo" type="number">
+        </div>
+        <div>
+            <label>E-mail</label>
+            <input class="userInfo" type="email">
+        </div>-->
+        <input id="submit" type="submit" value="파일 업로드">
+    </form>
 </div>
 <footer>
     제 6회 K-Hackathon<br>

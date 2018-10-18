@@ -18,7 +18,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/',upload.single('userfile'),function (req,res) {
-    res.send('upload! : '+req.file.filename);
+    /*alert('upload success!');*/
+    /*res.send('upload! : '+req.file.filename);*/
+    res.render('uploadSuccess',{title:'Music Instrument'});
     console.log(req.file);
 });
 
